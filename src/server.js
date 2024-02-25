@@ -14,6 +14,7 @@ const port = 8017;
 
 app.get("/", (req, res) => {
   // Test Absolute import mapOrder
+  // eslint-disable-next-line no-console
   console.log(
     mapOrder(
       [
